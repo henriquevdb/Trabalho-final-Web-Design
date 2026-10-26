@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <title>Terrorists</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./imagens/terror.png" />
+    <!-- CSS -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="/js/jquery-3.5.1.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body id="foto_Background_Tr">
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container" id="container_tr">
+        <div>
+            <h1 class="titulotr">Terroristas</h1>
+        </div>
+
+        <div class="col-12 row justify-content-center text-center">
+
+            <div class="card col-12 col-md-4 card-tr" style="width: 18rem;">
+                <img src="./imagens/skintr1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vypa Sista</h5>
+                    <h5 class="card-title money">R$ 71,85</h5>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-4 card-tr" style="width: 18rem;">
+                <img src="./imagens/skintr2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Silent Darryl</h5>
+                    <h5 class="card-title money">R$ 351,87</h5>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-4 card-tr" style="width: 18rem;">
+                <img src="./imagens/skintr3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Number K</h5>
+                    <h5 class="card-title money">R$ 424,05</h5>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <h1 class="titulotr">Objetivo</h1>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div><img src="./imagens/bomba.png" class="weaponimg" /></div><br>
+                <h5>"Os Terroristas vencem ao plantar a bomba e garantir sua explosão, ou ao eliminar todos os
+                    Contra-Terroristas."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>Terroristas (TR)</h1><br>
+
+                O objetivo dos Terroristas é plantar a bomba em um dos pontos
+                designados do mapa e defendê-la até sua explosão.
+                Eles também podem vencer a rodada ao eliminar todos os
+                Contra-Terroristas antes que o tempo acabe.<br><br>
+
+                A equipe Terrorista atua de forma ofensiva, buscando dominar áreas,
+                criar aberturas no mapa e proteger a bomba após o plantio.
+            </div>
+        </div>
+
+        <br>
+        <div>
+            <h1 class="titulotr">Armas</h1>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <button onclick="glock18()" class="btn arma">
+                    <div><img src="./imagens/Glock-18.webp" class="weaponimg" /></div>
+                </button>
+                <audio id="glock" src="./music/somglock.mp4"></audio>
+                <br>
+                <h5>"Glock é uma pistola funcional para a primeira rodada, que funciona melhor contra oponentes sem
+                    armadura e é capaz de disparar rajadas de três tiros."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>Glock-18</h1><br>
+
+                A Glock-18, anteriormente conhecida como 9x19mm Sidearm, é uma das pistolas da série Counter-Strike.
+                Ela atua como a pistola inicial para os terroristas em todos os jogos.<br><br>
+
+                Glock-18 em números:<br>
+                Preço: $200<br>
+                Dano: 30<br>
+                Penetração de armadura: 47%<br>
+                Taxa de disparo: 400 tiros por minuto<br>
+                Alcance preciso (metros): 20 m<br>
+                Tempo de recarga: 2.27 segundos<br>
+                Capacidade do carregador: 20<br>
+                Limite de munição reserva: 120<br>
+                Velocidade de corrida: 240 (6.096 m/s)<br>
+                Recompensa por eliminação: $300<br>
+                Poder de penetração: 100<br>
+                Poder de parada: 50<br>
+                Tipo de munição: calibre 9mm<br>
+                Modo de disparo: semiautomático / rajada de 3 tiros<br>
+                Controle de recuo: 18 / 26 (69%)<br>
+                Modificador de alcance: 0.90<br>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="row mt-5">
+            <div class="col-12 col-md-6">
+                <button onclick="ak47()" class="btn arma">
+                    <div><img src="./imagens/ak47.webp" class="weaponimg" /></div>
+                </button>
+                <audio id="ak" src="./music/somak47.mp4"></audio>
+                <h5>"A AK-47 é a arma de assinatura dos terroristas, poderosa em rajadas curtas e fatal com um único
+                    tiro na cabeça."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>AK-47</h1><br>
+
+                A AK-47 é um dos rifles mais icônicos do Counter-Strike e do mundo real.
+                É conhecida por seu alto dano, capacidade de matar com um único tiro na cabeça,
+                e grande poder de penetração.<br><br>
+
+                AK-47 em números:<br>
+                Preço: $2700<br>
+                Dano: 36<br>
+                Penetração de armadura: 77%<br>
+                Taxa de disparo: 600 tiros por minuto<br>
+                Alcance preciso (metros): 31 m<br>
+                Tempo de recarga: 2.50 segundos<br>
+                Capacidade do carregador: 30<br>
+                Limite de munição reserva: 90<br>
+                Velocidade de corrida: 215<br>
+                Recompensa por eliminação: $300<br>
+                Poder de penetração: 200<br>
+                Tipo de munição: 7.62mm<br>
+                Modo de disparo: Automático<br>
+                Controle de recuo: Difícil (padrão em L invertido)<br>
+                Modificador de alcance: 0.98<br>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <button onclick="mac10()" class="btn arma">
+                    <div><img src="./imagens/mac10.webp" class="weaponimg" /></div>
+                </button>
+                <audio id="mac" src="./music/sommac10.mp4"></audio>
+                <br>
+                <h5>"A MAC-10 é uma SMG leve com altíssima cadência de tiro, porém pouco precisa, sendo mais eficaz em
+                    combates de curta distância."</h5>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>MAC-10</h1><br>
+
+                A MAC-10 é uma das SMGs mais usadas em rounds forçados no Counter-Strike.
+                Seu grande destaque é a cadência de disparo muito alta, que torna a arma
+                devastadora em curta distância.
+                Em contrapartida, possui recuo elevado e baixa precisão, exigindo combate próximo
+                e movimentação constante para ser eficaz.<br><br>
+
+                MAC-10 em números:<br>
+                Preço: $1050<br>
+                Dano: 29<br>
+                Penetração de armadura: 57%<br>
+                Taxa de disparo: 800 rpm<br>
+                Alcance efetivo: 14 m<br>
+                Tempo de recarga: 3.5 s<br>
+                Capacidade do carregador: 30<br>
+                Munição reserva: 100<br>
+                Velocidade de movimento: 240<br>
+                Recompensa por eliminação: $600<br>
+                Penetração: 100<br>
+                Tipo de munição: .45 ACP<br>
+                Recuo: Alto e difícil de controlar<br>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div><img src="./imagens/molotov.png" class="weaponimg" /></div><br>
+                <h5>"A coquetel molotov cria uma zona de fogo que causa dano consistente a quem passar por ela."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>Molotov</h1><br>
+
+                O Molotov é o incendiário usado pelos Terroristas para negar áreas, atrasar rushes e impedir
+                avanços. O fogo se espalha rapidamente e causa dano constante por toda sua duração.<br><br>
+
+                Molotov em números:<br>
+                Preço: $400<br>
+                Dano: contínuo (8–12 por tick)<br>
+                Área de efeito: grande<br>
+                Duração do fogo: 7 segundos<br>
+                Tempo de ativação: imediato<br>
+                Velocidade de arremesso: média<br>
+                Recompensa por eliminação: $0<br>
+                Poder de controle: alto<br>
+                Modo de uso: arremesso<br>
+                Propagação: rápida<br>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <h1 class="titulotr">Frases</h1>
+        </div>
+
+
+        <div>
+            <h5 class="centro">-- Fire in the hole! --</h5>
+            <div class="botaoplay centro">
+                <button onclick="fireinhole()" class="btn">
+                    <img src="./imagens/play.png" class="botaoplay" />
+                </button>
+            </div>
+            <audio id="firehole" src="./music/firehole.mp3"></audio>
+        </div>
+        <br>
+        <div>
+            <h5 class="centro">-- Bingo Bango Bongo Bish Bash Bosh --</h5>
+
+            <div class="botaoplay centro">
+                <button onclick="bingo()" class="btn">
+                    <img src="./imagens/play.png" class="botaoplay" />
+                </button>
+            </div>
+
+            <audio id="bingobango" src="./music/bingobango.mp3"></audio>
+        </div>
+        <br>
+
+
+        <script src="barradesom.js"></script>
+
+        <br>
+
+        <div>
+            <h1 class="titulotr">Bomb code = 7355608</h1>
+        </div>
+
+        <p id="codigo"></p>
+
+        <div class="centro">
+            <p id="numero"></p>
+            <input type="button" value=" 1 " onclick="num1();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" 2 " onclick="num2();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" 3 " onclick="num3();" class="col-12 col-md-1 c4button" />
+            <br>
+            <input type="button" value=" 4 " onclick="num4();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" 5 " onclick="num5();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" 6 " onclick="num6();" class="col-12 col-md-1 c4button" />
+            <br>
+            <input type="button" value=" 7 " onclick="num7();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" 8 " onclick="num8();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" 9 " onclick="num9();" class="col-12 col-md-1 c4button" />
+            <br>
+            <input type="button" value=" * " onclick="enter();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" 0 " onclick="num0();" class="col-12 col-md-1 c4button" />
+            <input type="button" value=" # " onclick="menos();" class="col-12 col-md-1 c4button" />
+            <p id="resultado"></p>
+
+
+            <audio id="bombAudio" src="./music/bomba.mp4"></audio>
+        </div>
+
+        <script src="./js/bomb.js"></script>
+        <script src="./js/tr.js"></script>
+
+        <br>
+
+        <div id="footertr" class="footer">
+            <p>&copy; GUSTAVO SCHADE, HENRIQUE VAN DEN BOOM, VINICIUS CHAPIESKI  </p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

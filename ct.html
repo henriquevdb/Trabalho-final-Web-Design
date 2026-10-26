@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <title>Counter Terrorists</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./imagens/cterror.png" />
+    <!-- CSS -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="/js/jquery-3.5.1.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body id="foto_Background_Ct">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container" id="container_ct">
+        <div>
+            <h1 class="tituloct">Contra Terroristas</h1>
+        </div>
+
+        <br>
+
+        <div class="col-12 row justify-content-center text-center">
+
+            <div class="card col-12 col-md-4 card-ct" style="width: 18rem;">
+                <img src="./imagens/skinct1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CT padrão</h5>
+                    <h5 class="card-title money">R$ 0,00</h5>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-4 card-ct" style="width: 18rem;">
+                <img src="./imagens/skinct2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">D Squadron Officer</h5>
+                    <h5 class="card-title money">R$ 621,92</h5>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-4 card-ct" style="width: 18rem;">
+                <img src="./imagens/skinct3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">3rd Comando</h5>
+                    <h5 class="card-title money">R$ 85,35</h5>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <h1 class="tituloct">Objetivos</h1>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div><img src="./imagens/kitdedesarme.png" class="weaponimg" /></div><br>
+                <h5>"Os Contra-Terroristas vencem ao desarmar a bomba, resgatar reféns ou eliminar todos os
+                    Terroristas."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>Contra-Terroristas (CT)</h1><br>
+
+                O objetivo dos Contra-Terroristas é impedir as ações dos Terroristas.
+                Eles devem proteger os pontos estratégicos do mapa e, quando necessário,
+                desarmar a bomba antes de sua explosão.<br><br>
+
+                Além disso, os CTs também vencem a rodada ao eliminar toda a equipe Terrorista
+                ou ao cumprir objetivos de resgate de reféns.
+            </div>
+        </div>
+        <br>
+        <div>
+            <h1 class="tituloct">Armas</h1>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <button onclick="usp1()" class="btn arma">
+                    <div><img src="./imagens/usp.png" class="weaponimg" /></div>
+                </button>
+                <audio id="usp2" src="./music/somusp.mp4"></audio>
+                <br>
+                <h5>"Favorito dos fãs de Counter-Strike: Source, a pistola USP com silenciador tem um silenciador
+                    removível que reduz o recuo dos tiros e suprime o barulho chamativo."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>USP-S</h1><br>
+
+                A USP-S destaca-se como a arma inicial de escolha para unidades contraterroristas em Counter-Strike 2.
+                Equipada com supressor, oferece maior precisão, menor recuo e disparos silenciosos,
+                sendo ideal para duelos controlados e tiros certeiros.<br><br>
+
+                USP-S em números:<br>
+                Preço: $200<br>
+                Dano: 35<br>
+                Penetração de armadura: 50.5%<br>
+                Taxa de disparo: 352 tiros por minuto<br>
+                Alcance preciso: 22 m<br>
+                Tempo de recarga: 2.2 s<br>
+                Capacidade do carregador: 12<br>
+                Munição reserva: 24<br>
+                Velocidade de corrida: 240<br>
+                Recompensa por eliminação: $300<br>
+                Poder de penetração: 100<br>
+                Tipo de munição: calibre .45<br>
+                Modo de disparo: semiautomático<br>
+                Controle de recuo: 19 / 26 (73%)<br>
+                Modificador de alcance: 0.91<br>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row mt-5">
+            <div class="col-12 col-md-6">
+                <button onclick="m4a1s()" class="btn arma">
+                    <div><img src="./imagens/m4as.png" class="weaponimg"></div>
+                </button>
+                <audio id="m4" src="./music/somM4.mp4"></audio>
+                <br>
+                <h5>"Menos recuo e maior precisão compensam o menor carregador e o dano reduzido. Vem equipada com um
+                    supressor."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>M4A1-S</h1><br>
+
+                A M4A1-S é o fuzil silencioso exclusivo dos Contra-Terroristas.
+                Seu baixo recuo, alta precisão e som abafado permitem eliminações
+                mais discretas e controle superior em média e longa distância.<br><br>
+
+                M4A1-S em números:<br>
+                Preço: $2900<br>
+                Dano: 38<br>
+                Penetração de armadura: 70%<br>
+                Taxa de disparo: 600 tiros por minuto<br>
+                Alcance preciso: 22 m<br>
+                Tempo de recarga: 3.07 s<br>
+                Capacidade do carregador: 20<br>
+                Munição reserva: 80<br>
+                Velocidade de corrida: 225<br>
+                Recompensa por eliminação: $300<br>
+                Poder de penetração: 200<br>
+                Tipo de munição: 5.56mm<br>
+                Modo de disparo: automático<br>
+                Controle de recuo: 21 / 25 (84%)<br>
+                Modificador de alcance: 0.94<br>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row mt-5 space">
+            <div class="col-12 col-md-6">
+                <button onclick="mp9()" class="btn arma">
+                    <div><img src="./imagens/mp9.png" class="weaponimg"></div>
+                </button>
+                <audio id="mp" src="./music/sommp9.mp4"></audio>
+                <br>
+                <h5>"A MP9, fabricada na Suíça, é uma submetralhadora moderna, leve e com alta cadência de tiro, ideal
+                    para confrontos de curta distância."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>MP9</h1><br>
+
+                A MP9 é a SMG padrão dos Contra-Terroristas.
+                Extremamente leve e rápida, é perfeita para rounds econômicos,
+                oferecendo alta mobilidade e bom controle em curta distância.<br><br>
+
+                MP9 em números:<br>
+                Preço: $1250<br>
+                Dano: 26<br>
+                Penetração de armadura: 60%<br>
+                Taxa de disparo: 857 tiros por minuto<br>
+                Alcance preciso: 16 m<br>
+                Tempo de recarga: 2.1 s<br>
+                Capacidade do carregador: 30<br>
+                Munição reserva: 120<br>
+                Velocidade de corrida: 240<br>
+                Recompensa por eliminação: $600<br>
+                Poder de penetração: 120<br>
+                Tipo de munição: 9mm<br>
+                Modo de disparo: automático<br>
+                Controle de recuo: 16 / 26 (61%)<br>
+                Modificador de alcance: 0.85<br>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row mt-5">
+            <div class="col-12 col-md-6">
+                <div><img src="./imagens/granadaIncendiaria.webp" class="weaponimg" /></div><br>
+                <h5>"A granada incendiária cria uma zona de chamas que causa dano contínuo e obriga o inimigo a
+                    reposicionar."</h5>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h1>Granada Incendiária</h1><br>
+
+                A granada incendiária é o equipamento incendiário dos Contra-Terroristas.
+                Serve para negar áreas, atrasar entradas e controlar mapas,
+                criando uma barreira de fogo extremamente eficiente.<br><br>
+
+                Granada incendiária em números:<br>
+                Preço: $600<br>
+                Dano: contínuo (8–12 por tick)<br>
+                Área de efeito: grande<br>
+                Duração do fogo: 7 segundos<br>
+                Tempo de ativação: imediato<br>
+                Velocidade de arremesso: média<br>
+                Recompensa por eliminação: $0<br>
+                Poder de controle: muito alto<br>
+                Modo de uso: arremesso<br>
+                Propagação: rápida<br>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <h1 class="tituloct">Frases</h1>
+        </div>
+
+
+        <h5 class="centro">-- this is not the killing house anymore, this is real life --</h5>
+        <div class="botaoplay centro">
+
+            <button onclick="killhouse()" class="btn">
+                <img src="./imagens/play.png" class="botaoplay" />
+            </button>
+        </div>
+        <audio id="reallife" src="./music/reallife.mp3"></audio>
+
+        <br>
+
+        <h5 class="centro">-- easy peasy --</h5>
+        <div class="botaoplay centro">
+            <button onclick="easy()" class="btn">
+                <img src="./imagens/play.png" class="botaoplay" />
+            </button>
+        </div>
+        <audio id="easypeasy" src="./music/easypeasy.mp3"></audio>
+
+        <br>
+
+        <div>
+            <h1 class="tituloct">Kill all the Terrorists</h1>
+        </div>
+        <br>
+
+        <br>
+        <div class="col-12 row justify-content-center text-center terroristas">
+            <button onclick="kill1()" class="col 12 col-md-2 col-xs-4 btn cts" id="botao1"><img src="./imagens/terrorista1.png"
+                    class="cts" /></button>
+            <button onclick="kill2()" class="col 12 col-md-2 col-xs-4 btn cts" id="botao2"><img src="./imagens/terrorista2.png"
+                    class="cts" /></button>
+            <button onclick="kill3()" class="col 12 col-md-2 col-xs-4 btn cts" id="botao3"><img src="./imagens/terrorista3.png"
+                    class="cts" /></button>
+            <button onclick="kill4()" class="col 12 col-md-2 col-xs-4 btn cts" id="botao4"><img src="./imagens/terrorista4.png"
+                    class="cts" /></button>
+            <button onclick="kill5()" class="col 12 col-md-2 col-xs-4 btn cts" id="botao5"><img src="./imagens/terrorista5.png"
+                    class="cts" /></button>
+        </div>
+        <p id="kills"></p>
+        <audio id="endround" src="./music/endround.mp4"></audio>
+        <audio id="win" src="./music/win.mp4"></audio>
+        <audio id="headshot" src="./music/headshot.mp4"></audio>
+
+        <script src="./js/ct.js"></script>
+        <script src="./js/bomb.js"></script>
+    
+        <br>
+
+        <div id="footerct" class="footer">
+            <p>&copy; GUSTAVO SCHADE, HENRIQUE VAN DEN BOOM, VINICIUS CHAPIESKI  </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
