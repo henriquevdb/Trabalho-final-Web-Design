@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "bigtext";
+    src: url(./font/stratum2.otf);
+
+}
+
+@font-face {
+    font-family: "normal";
+    src: url(./font/NotoSans-Regular.ttf);
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "normal";
+    scroll-behavior: smooth;
+    font-size: 20px;
+    color: rgb(3, 31, 53);
+}
+    
+h1 {
+    font-family: "bigtext";
+    font-size: 64px;
+    font-style: bold;
+    color: black;
+
+}
+
+h5 {
+    font-family: "bigtext";
+    font-size: 32px;
+    font-style: bold;
+    color: black;
+
+}
+
+.header {
+    background-image: url(../imagens/BackgroundDust2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.emblemas {
+    width: 50%;
+}
+
+#ct:hover {
+    filter: drop-shadow(0px 0px 20px #3a788b);
+    transition: .5s;
+}
+
+#tr:hover {
+    filter: drop-shadow(0px 0px 20px #332d20);
+    transition: .5s;
+}
+
+.cts {
+    height: 200px;
+    width: 200px;
+}
+
+.c4button {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#linkfuria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#linkfuria:hover {
+    filter: drop-shadow(0px 0px 10px #ffffff);
+    transition: all .5s;
+}
+
+.emblemafuria, .col-xs-12{
+    width: 50%;
+}
+
+#container_ct {
+    background: linear-gradient(180deg, #3d7384, #242f3f);
+    opacity: 95%;
+}
+
+#foto_Background_Ct {
+    background-image: url(../imagens/brbrbr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(190, 195, 199);
+}
+
+#container_tr {
+    background: linear-gradient(180deg, #9a8d60, #554d38);
+    opacity: 95%;
+}
+
+#foto_Background_Tr {
+    background-image: url(../imagens/BackgroundDust2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(32, 18, 6);
+}
+
+.arma {
+    width: 100%;
+    height: 80%;
+}
+
+.weaponimg {
+    width: 100%;
+    height: 100%;
+}
+
+.card-ct {
+    background-color: #0e0f1f;
+    border-color: #00a2ff;
+}
+
+.card-ct .card-title {
+    font-family: "bigtext";
+    color: #00a2ff;
+    text-shadow: 0px 0px 5px #070233;
+}
+
+.card-ct .money {
+    font-family: "bigtext";
+    color: #0dbd16;
+    text-shadow: 0px 0px 5px #023602;
+}
+
+.card-tr {
+    background-color: #1f180e;
+    border-color: #ffbb00;
+}
+
+.card-tr .card-title {
+    font-family: "bigtext";
+    color: #ffbb00;
+    text-shadow: 0px 0px 5px #070233;
+}
+
+.card-tr .money {
+    font-family: "bigtext";
+    color: #0dbd16;
+    text-shadow: 0px 0px 5px #023602;
+}
+
+.titulotr {
+    text-align: center;
+    font-family: "bigtext";
+    color: #1f180e;
+    text-shadow: 0px 0px 5px #966e03;
+}
+
+.tituloct {
+    text-align: center;
+    font-family: "bigtext";
+    color: #056ca8;
+    text-shadow: 0px 0px 5px #04094e;
+}
+
+/*inmferno do carlark0 agora e 1:30 e resolvi essa porra*/
+
+.botaoplay {
+    justify-content: center;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centro {
+    text-align: center;
+}
+
+.terroristas {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.footer {
+    padding: 8px;
+    font-family: "bigtext";
+    color: #dce7e3;
+    text-align: center;
+}
+#footertr {
+    color: #241a04;
+}
+#footerct {
+    color: #04094e;
+}
